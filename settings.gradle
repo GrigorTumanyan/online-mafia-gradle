@@ -1,0 +1,6 @@
+rootProject.name = 'online-mafia'
+include 'entity'
+include 'security'
+include 'admin'
+include 'player'
+

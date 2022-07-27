@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    image: mongo
+    restart: always
+    ports:
+      - "8010:27017"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: online-mafia
