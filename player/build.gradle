@@ -11,7 +11,6 @@ version '0.0.1-SNAPSHOT'
 repositories {
     mavenCentral()
 }
-
 application {
     mainClass.set("player.OnlineMafiaApplication")
 }
@@ -27,6 +26,7 @@ jar{
 dependencies {
     implementation(project(":entity"))
     implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework:spring-webmvc'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.springframework:spring-webmvc'
 

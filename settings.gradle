@@ -3,4 +3,5 @@ include 'entity'
 include 'security'
 include 'admin'
 include 'player'
+include 'view'
 
