@@ -28,7 +28,6 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework:spring-webmvc'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    implementation 'org.springframework:spring-webmvc'
 
 
     implementation group: 'org.springframework.data', name: 'spring-data-mongodb', version: '3.3.5'
